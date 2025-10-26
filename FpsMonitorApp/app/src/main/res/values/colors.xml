@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF6B35</color>
+    <color name="colorPrimaryDark">#E55A2B</color>
+    <color name="colorAccent">#FF6B35</color>
+    
+    <!-- FPS Colors -->
+    <color name="fps_good">#4CAF50</color>
+    <color name="fps_medium">#FF9800</color>
+    <color name="fps_bad">#F44336</color>
+    
+    <!-- Background Colors -->
+    <color name="overlay_background_dark">#CC000000</color>
+    <color name="overlay_background_light">#CCFFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#CCFFFFFF</color>
+    <color name="text_primary_light">#000000</color>
+    <color name="text_secondary_light">#666666</color>
+</resources>
