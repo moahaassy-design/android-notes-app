@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Tampilan">
+        
+        <CheckBoxPreference
+            android:key="dark_theme"
+            android:title="Dark Theme"
+            android:summary="Menggunakan tema gelap untuk overlay"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="overlay_size"
+            android:title="Ukuran Overlay"
+            android:summary="Atur ukuran tampilan FPS"
+            android:entries="@array/overlay_size_entries"
+            android:entryValues="@array/overlay_size_values"
+            android:defaultValue="medium" />
+
+        <SeekBarPreference
+            android:key="transparency"
+            android:title="Transparansi"
+            android:summary="Atur tingkat transparansi overlay"
+            android:max="100"
+            android:defaultValue="80" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Monitoring">
+
+        <ListPreference
+            android:key="update_interval"
+            android:title="Interval Update"
+            android:summary="Seberapa sering FPS diperbarui"
+            android:entries="@array/update_interval_entries"
+            android:entryValues="@array/update_interval_values"
+            android:defaultValue="1000" />
+
+        <CheckBoxPreference
+            android:key="show_average"
+            android:title="Tampilkan Rata-rata"
+            android:summary="Tampilkan FPS rata-rata"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="show_frame_time"
+            android:title="Tampilkan Frame Time"
+            android:summary="Tampilkan waktu per frame"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Lainnya">
+
+        <CheckBoxPreference
+            android:key="auto_start"
+            android:title="Auto Start"
+            android:summary="Mulai monitoring saat app dibuka"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="reset_position"
+            android:title="Reset Posisi Overlay"
+            android:summary="Kembalikan overlay ke posisi default" />
+
+        <Preference
+            android:key="about"
+            android:title="Tentang"
+            android:summary="Informasi aplikasi" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

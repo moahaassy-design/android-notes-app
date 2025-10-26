@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/overlayContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/overlay_background">
+
+    <TextView
+        android:id="@+id/tvCurrentFps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="60 FPS"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/tvAvgFps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avg: 60"
+        android:textSize="12sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="2dp" />
+
+    <TextView
+        android:id="@+id/tvFrameTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16.7 ms"
+        android:textSize="10sp"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="1dp" />
+
+</LinearLayout>

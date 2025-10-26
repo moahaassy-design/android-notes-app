@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_fps_monitor"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="App Icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FPS Monitor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Real-time FPS monitoring dengan Shizuku"
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/tvShizukuStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shizuku: Checking..."
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp"
+        android:background="@drawable/rounded_background"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Tidak Aktif"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnToggleMonitoring"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Start Monitoring"
+        android:textSize="16sp"
+        android:background="@drawable/button_primary"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/info_background"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cara Penggunaan:"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Pastikan Shizuku sudah terinstall dan berjalan"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Berikan izin Shizuku dan Overlay"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Tekan 'Start Monitoring' untuk mulai"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Overlay FPS akan muncul dan bisa digeser"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
