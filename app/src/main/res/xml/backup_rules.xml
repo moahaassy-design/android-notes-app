@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude specific files or directories from backup -->
+    <!-- For example: -->
+    <!-- <exclude domain="file" path="local_database.db" /> -->
+    <!-- <exclude domain="file" path="user_prefs.xml" /> -->
+</full-backup-content>

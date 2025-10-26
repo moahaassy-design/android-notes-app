@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Catatan</string>
+    <string name="add_note">Tambah Catatan</string>
+    <string name="edit_note">Edit Catatan</string>
+    <string name="search">Cari</string>
+    <string name="save">Simpan</string>
+    <string name="delete">Hapus</string>
+    <string name="confirm_delete">Yakin ingin menghapus catatan ini?</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="note_deleted">Catatan berhasil dihapus</string>
+    <string name="note_saved">Catatan berhasil disimpan</string>
+    <string name="title_required">Judul tidak boleh kosong</string>
+</resources>
