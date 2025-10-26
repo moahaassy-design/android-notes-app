@@ -39,8 +39,7 @@ jobs:
       
     - name: Build APK with Gradle
       run: |
-        ./gradlew assembleRelease \
-          -Dorg.gradle.java.home=/opt/jdk-17
+        ./gradlew assembleRelease
         
     - name: Upload APK artifact
       uses: actions/upload-artifact@v3
